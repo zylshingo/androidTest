@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LocationShare</string>
+    <string name="fenxiang">点击分享位置</string>
+    <string name="quxiao">取消分享</string>
+</resources>

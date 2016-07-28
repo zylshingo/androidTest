@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LockScreen</string>
+    <string name="suoping">一键锁屏</string>
+    <string name="peizhi">配置一键锁屏</string>
+    <string name="zhuche">获取设备管理者权限</string>
+    <string name="zhuxiao">取消设置管理者权限</string>
+    <string name="title">需要获取设置管理者权限才能一键锁屏</string>
+</resources>

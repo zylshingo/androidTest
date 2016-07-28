@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="100sp"
+            android:layout_height="90sp"
+            android:id="@+id/iv_cell_icon"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="5sp"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="5sp"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:layout_toRightOf="@+id/iv_cell_icon"
+            android:id="@+id/linearLayout"
+            android:layout_marginTop="5sp">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_cell_title"
+                android:gravity="center_vertical|start"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:singleLine="true"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/iv_cell_juan"
+                android:adjustViewBounds="true"
+                android:layout_marginRight="10dp"
+                android:maxHeight="20sp"
+                android:maxWidth="20sp"/>
+
+    </LinearLayout>
+
+    <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:id="@+id/ratingBar"
+            style="@style/myratingbar"
+            android:isIndicator="true"
+            android:layout_toRightOf="@+id/iv_cell_icon"
+            android:layout_alignTop="@+id/tv_cell_juli"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:id="@+id/tv_cell_yishou"
+            android:layout_below="@+id/linearLayout"
+            android:layout_toEndOf="@+id/ratingBar"
+            android:layout_alignBottom="@+id/ratingBar"
+            android:layout_toRightOf="@+id/ratingBar"
+            android:gravity="center"
+            android:singleLine="true"
+            android:layout_marginLeft="20px"
+            android:textSize="12sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_cell_juli"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignRight="@+id/linearLayout"
+            android:layout_alignEnd="@+id/linearLayout"
+            android:singleLine="true"
+            android:layout_marginRight="10dp"
+            android:textSize="12sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35sp"
+            android:id="@+id/tv_cell_qisong"
+            android:layout_below="@+id/ratingBar"
+            android:layout_toEndOf="@+id/iv_cell_icon"
+            android:layout_toRightOf="@+id/iv_cell_icon"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="13sp"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_cell_jian"
+            android:layout_below="@+id/iv_cell_icon"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_cell_jian"
+            android:layout_below="@+id/iv_cell_icon"
+            android:layout_toRightOf="@+id/iv_cell_jian"
+            android:singleLine="true"/>
+
+</RelativeLayout>

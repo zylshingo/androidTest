@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Permission</string>
+    <string name="permission">这是一个拥有权限的Activity</string>
+</resources>

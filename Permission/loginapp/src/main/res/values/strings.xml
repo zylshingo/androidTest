@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">loginApp</string>
+    <string name="login">点击启动一个拥有权限的Activity</string>
+    <string name="btnlogin">启动</string>
+</resources>

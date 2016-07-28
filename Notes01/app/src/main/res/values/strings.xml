@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="menus_item01">添加</string>
+    <string name="time">请输入24小时制整点时间</string>
+    <string name="insertTime">请点击输入</string>
+    <string name="event">事 件</string>
+    <string name="insertEvent">在此输入事件</string>
+    <string name="btnInsert">添加整点事件</string>
+    <string name="dialog_title">请确认！</string>
+    <string name="dialog_msg">你是否想要删除这条信息？</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="remind">定点提醒！</string>
+    <string name="point_to">点到了，</string>
+    <string name="isevnet">该时刻已经存在事件！</string>
+    <string name="wanzhen">请将信息输入完整！</string>
+    <string name="buhefa">请输入0到23的整数时间</string>
+    <string name="add_ok">添加事件成功</string>
+    <string name="tv_text">请输入24小时制整点时间</string>
+    <string name="et_hint">在此输入事件</string>
+    <string name="tv_event">事 件</string>
+    <string name="et_event">在此输入事件</string>
+    <string name="btn_enent">添加整点事件</string>
+    <string name="tv_time">时间：</string>
+    <string name="shier">12</string>
+    <string name="tv_point">点</string>
+    <string name="tv_showevent">事件：</string>
+</resources>

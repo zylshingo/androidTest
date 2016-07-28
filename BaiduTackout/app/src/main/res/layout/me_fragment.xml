@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center_horizontal"
+            android:fillViewport="true">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="120sp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#ff0000"
+                    android:padding="10sp">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="30sp"
+                        android:maxHeight="30sp"
+                        android:id="@+id/imageView"
+                        android:layout_gravity="right"
+                        android:src="@drawable/mypage_navigationbar_icon_setting"/>
+
+                <TextView
+                        android:layout_width="180sp"
+                        android:layout_height="50sp"
+                        android:text="@string/denglu"
+                        android:id="@+id/tv_dingdan_login"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:background="@drawable/meloginrd"
+                        android:textColor="#ff0000"
+                        android:textSize="20sp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        style="@style/MyHeader"/>
+
+                <LinearLayout
+                        style="@style/MyList">
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:layout_marginLeft="10sp"
+                            android:src="@drawable/mypage_list_icon_location"/>
+
+                    <TextView
+                            style="@style/MyTextView"
+                            android:text="@string/adress"
+                            android:layout_marginLeft="10sp"/>
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:src="@drawable/wallet_base_indicator_arrow"
+                            android:layout_marginRight="10sp"/>
+                </LinearLayout>
+
+                <TextView
+                        style="@style/MyLine"/>
+
+                <LinearLayout
+                        style="@style/MyList">
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:layout_marginLeft="10sp"
+                            android:src="@drawable/mypage_list_icon_daijinjuan"/>
+
+                    <TextView
+                            style="@style/MyTextView"
+                            android:text="@string/daijinquan"
+                            android:layout_marginLeft="10sp"/>
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:src="@drawable/wallet_base_indicator_arrow"
+                            android:layout_marginRight="10sp"/>
+                </LinearLayout>
+
+                <TextView
+                        style="@style/MyLine"/>
+
+                <LinearLayout
+                        style="@style/MyList">
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:layout_marginLeft="10sp"
+                            android:src="@drawable/mypage_list_icon_refund"/>
+
+                    <TextView
+                            style="@style/MyTextView"
+                            android:text="@string/tuikuan"
+                            android:layout_marginLeft="10sp"/>
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:src="@drawable/wallet_base_indicator_arrow"
+                            android:layout_marginRight="10sp"/>
+                </LinearLayout>
+
+                <TextView
+                        style="@style/MyHeader"/>
+
+                <LinearLayout
+                        style="@style/MyList">
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:layout_marginLeft="10sp"
+                            android:src="@drawable/my_messages"/>
+
+                    <TextView
+                            style="@style/MyTextView"
+                            android:text="@string/xiaoxi"
+                            android:layout_marginLeft="10sp"/>
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:src="@drawable/wallet_base_indicator_arrow"
+                            android:layout_marginRight="10sp"/>
+                </LinearLayout>
+
+                <TextView
+                        style="@style/MyLine"/>
+
+                <LinearLayout
+                        style="@style/MyList">
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:layout_marginLeft="10sp"
+                            android:src="@drawable/mypage_list_icon_star"/>
+
+                    <TextView
+                            style="@style/MyTextView"
+                            android:text="@string/shoucang"
+                            android:layout_marginLeft="10sp"/>
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:src="@drawable/wallet_base_indicator_arrow"
+                            android:layout_marginRight="10sp"/>
+                </LinearLayout>
+
+                <TextView
+                        style="@style/MyLine"/>
+
+                <LinearLayout
+                        style="@style/MyList">
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:layout_marginLeft="10sp"
+                            android:src="@drawable/mypage_list_icon_comment"/>
+
+                    <TextView
+                            style="@style/MyTextView"
+                            android:text="@string/pinglun"
+                            android:layout_marginLeft="10sp"/>
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:src="@drawable/wallet_base_indicator_arrow"
+                            android:layout_marginRight="10sp"/>
+                </LinearLayout>
+
+                <TextView
+                        style="@style/MyHeader"/>
+
+                <LinearLayout
+                        style="@style/MyList">
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:layout_marginLeft="10sp"
+                            android:src="@drawable/mypage_list_icon_wallet"/>
+
+                    <TextView
+                            style="@style/MyTextView"
+                            android:text="@string/qianbao"
+                            android:layout_marginLeft="10sp"/>
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:src="@drawable/wallet_base_indicator_arrow"
+                            android:layout_marginRight="10sp"/>
+                </LinearLayout>
+
+                <TextView
+                        style="@style/MyLine"/>
+
+                <LinearLayout
+                        style="@style/MyList">
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:layout_marginLeft="10sp"
+                            android:src="@drawable/icon_nuomi"/>
+
+                    <TextView
+                            style="@style/MyTextView"
+                            android:text="@string/nuomi"
+                            android:layout_marginLeft="10sp"/>
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:src="@drawable/wallet_base_indicator_arrow"
+                            android:layout_marginRight="10sp"/>
+                </LinearLayout>
+
+                <TextView
+                        style="@style/MyHeader"/>
+
+                <LinearLayout
+                        style="@style/MyList">
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:layout_marginLeft="10sp"
+                            android:src="@drawable/icon_common_problem"/>
+
+                    <TextView
+                            style="@style/MyTextView"
+                            android:text="@string/wenti"
+                            android:layout_marginLeft="10sp"/>
+
+                    <ImageView
+                            style="@style/MyImageView"
+                            android:src="@drawable/wallet_base_indicator_arrow"
+                            android:layout_marginRight="10sp"/>
+                </LinearLayout>
+
+                <TextView
+                        style="@style/MyHeader"/>
+
+                <LinearLayout
+                        style="@style/MyList"
+                        android:gravity="center">
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/iv_service_cell"
+                            android:adjustViewBounds="true"
+                            android:maxWidth="20sp"
+                            android:maxHeight="20sp"
+                            android:src="@drawable/mypage_list_icon_call"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20sp"
+                            android:text="@string/kefu"
+                            android:id="@+id/tv_service_cell"
+                            android:textSize="16sp"
+                            android:gravity="center_vertical"
+                            android:layout_marginLeft="10sp"
+                            android:textColor="#ff0000"/>
+                </LinearLayout>
+
+                <TextView
+                        style="@style/MyHeader"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

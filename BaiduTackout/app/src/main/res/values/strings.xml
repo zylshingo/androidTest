@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BaiduTackout</string>
+    <string name="seach">搜索商户或者商品名称</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dingdan">订单</string>
+    <string name="chakandingdan">你还没有登陆，请登陆后查看订单</string>
+    <string name="denglu">登录/注册</string>
+    <string name="adress">我的地址</string>
+    <string name="daijinquan">我的代金券</string>
+    <string name="tuikuan">我的退款</string>
+    <string name="xiaoxi">我的消息</string>
+    <string name="shoucang">我的收藏</string>
+    <string name="pinglun">我的评论</string>
+    <string name="qianbao">百度钱包</string>
+    <string name="nuomi">百度糯米</string>
+    <string name="wenti">常见问题</string>
+    <string name="kefu">客服 400-011-7777</string>
+</resources>

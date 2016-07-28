@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#c7c4c4">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:text="@string/dingdan"
+            android:id="@+id/tv_dingdan_title"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:background="#ff0000"/>
+
+    <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:id="@+id/iv_dingdan_touxiang"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/tab_icon_me"
+            android:layout_marginTop="60sp"
+            android:background="@drawable/dingdanrd"
+            android:adjustViewBounds="false"
+            android:padding="15sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chakandingdan"
+            android:id="@+id/tv_dingdan_remind"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30sp"
+            android:textSize="15sp"/>
+
+    <TextView
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            android:text="@string/denglu"
+            android:id="@+id/tv_dingdan_login"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:background="@drawable/loginrd"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+</LinearLayout>
