@@ -43,7 +43,6 @@ public class locationService extends Service {
     public void onCreate() {
         super.onCreate();
         running = true;
-
         new Thread() {
             @Override
             public void run() {
