@@ -21,3 +21,5 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+//安卓学习之传递愿望
